@@ -1,0 +1,849 @@
+2018-12-20 14:41:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-12-20 14:41:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-20 14:41:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-20 14:41:47 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-12-20 14:41:47 [scrapy.core.engine] INFO: Spider opened
+2018-12-20 14:41:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-20 14:41:47 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6030
+2018-12-20 14:41:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/search/egr> (referer: None)
+2018-12-20 14:41:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/controls-engineer/6776429716.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/controls-engineer/6776429716.html>
+{'ADRESSE': [u' (Newburyport)'],
+ 'COMPENSATION': u'Commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6776429716',
+ 'JOB_TITLE': [u'Controls Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/controls-engineer/6776429716.html',
+ 'PUBLICATION_DATE': [u'Dec 19']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/facilities-engineer-ii-or-iii/6772752988.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/facilities-engineer-ii-or-iii/6772752988.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'depends on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6772752988',
+ 'JOB_TITLE': [u'Facilities Engineer II or III'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/facilities-engineer-ii-or-iii/6772752988.html',
+ 'PUBLICATION_DATE': [u'Dec 14']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/sr-mechanical-design-engineer/6772816280.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/sr-mechanical-design-engineer/6772816280.html>
+{'ADRESSE': [u' (Hyde Park)'],
+ 'COMPENSATION': u'with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6772816280',
+ 'JOB_TITLE': [u'Sr. Mechanical Design Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/sr-mechanical-design-engineer/6772816280.html',
+ 'PUBLICATION_DATE': [u'Dec 14']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architectural-designer-kitchen-and/6775676336.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/project-estimator/6775484097.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/sales-engineer/6775831092.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/bio-process-associate-first-shift/6776164258.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/sob/egr/d/solder/6775485406.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/sob/egr/d/survey-civil-cad-technician/6775511929.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/architectural-designer/6772731328.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/iso-compliance-manager-cnc-machine-shop/6773010330.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architectural-designer-kitchen-and/6775676336.html>
+{'ADRESSE': [u' (boston and surrounding areas)'],
+ 'COMPENSATION': u'25-35 per hour based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6775676336',
+ 'JOB_TITLE': [u'architectural designer kitchen and bathroom design'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architectural-designer-kitchen-and/6775676336.html',
+ 'PUBLICATION_DATE': [u'Dec 18']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/project-estimator/6775484097.html>
+{'ADRESSE': [u' (Norwood, MA)'],
+ 'COMPENSATION': u'Commensurate With Experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6775484097',
+ 'JOB_TITLE': [u'Project Estimator'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/project-estimator/6775484097.html',
+ 'PUBLICATION_DATE': [u'Dec 18']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/part-time-full-time-experienced-civil/6774575938.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/sales-engineer/6775831092.html>
+{'ADRESSE': [u' (Waltham)'],
+ 'COMPENSATION': u'US$50000 - US$80000 per year',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6775831092',
+ 'JOB_TITLE': [u'Sales Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/sales-engineer/6775831092.html',
+ 'PUBLICATION_DATE': [u'Dec 18']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/bio-process-associate-first-shift/6776164258.html>
+{'ADRESSE': [u' (Devens, MA)'],
+ 'COMPENSATION': u'N/A',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6776164258',
+ 'JOB_TITLE': [u'Bio Process Associate - First Shift'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/bio-process-associate-first-shift/6776164258.html',
+ 'PUBLICATION_DATE': [u'Dec 19']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/sob/egr/d/solder/6775485406.html>
+{'ADRESSE': [u' (Norwood)'],
+ 'COMPENSATION': u'$18 to $25 per Hour',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6775485406',
+ 'JOB_TITLE': [u'Solder'],
+ 'JOB_URL': u'https://boston.craigslist.org/sob/egr/d/solder/6775485406.html',
+ 'PUBLICATION_DATE': [u'Dec 18']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/project-surveyor/6774577573.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/sob/egr/d/survey-civil-cad-technician/6775511929.html>
+{'ADRESSE': [u' (Dedham)'],
+ 'COMPENSATION': u'up to $67,000 depending on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6775511929',
+ 'JOB_TITLE': [u'Survey/Civil CAD Technician'],
+ 'JOB_URL': u'https://boston.craigslist.org/sob/egr/d/survey-civil-cad-technician/6775511929.html',
+ 'PUBLICATION_DATE': [u'Dec 18']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/architectural-designer/6772731328.html>
+{'ADRESSE': [u' (Marblehead)'],
+ 'COMPENSATION': u'To be determined',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6772731328',
+ 'JOB_TITLE': [u'Architectural Designer'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/architectural-designer/6772731328.html',
+ 'PUBLICATION_DATE': [u'Dec 14']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/iso-compliance-manager-cnc-machine-shop/6773010330.html>
+{'ADRESSE': [u' (Watertown, MA)'],
+ 'COMPENSATION': u'Dependent on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6773010330',
+ 'JOB_TITLE': [u'ISO Compliance Manager - CNC Machine Shop'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/iso-compliance-manager-cnc-machine-shop/6773010330.html',
+ 'PUBLICATION_DATE': [u'Dec 14']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/project-manager-to-85k/6774858163.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/estimator-project-manager-fine-gardener/6770930622.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/quality-engineer-qc-inspector-1099/6774931735.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/project-civil-transportation-engineer/6753706105.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/part-time-full-time-experienced-civil/6774575938.html>
+{'ADRESSE': [u' (Framingham, MA)'],
+ 'COMPENSATION': u'Compensation based on experience.',
+ 'EMPLOYMENT_TYPE': u'part-time',
+ 'JOB_ID': u'6774575938',
+ 'JOB_TITLE': [u'Part - Time / Full - Time Experienced Civil Engineer Project Manager'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/part-time-full-time-experienced-civil/6774575938.html',
+ 'PUBLICATION_DATE': [u'Dec 17']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/project-surveyor/6774577573.html>
+{'ADRESSE': [u' (Framingham)'],
+ 'COMPENSATION': u'Depends upon experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6774577573',
+ 'JOB_TITLE': [u'Project Surveyor'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/project-surveyor/6774577573.html',
+ 'PUBLICATION_DATE': [u'Dec 17']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/project-manager-to-85k/6774858163.html>
+{'ADRESSE': [u' (Boston: Boston/Cambridge/Brookline)'],
+ 'COMPENSATION': '-',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6774858163',
+ 'JOB_TITLE': [u'Project Manager to 85k'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/project-manager-to-85k/6774858163.html',
+ 'PUBLICATION_DATE': [u'Dec 17']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/estimator-project-manager-fine-gardener/6770930622.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'COMPENSATION IS BASED UPON EXPERIENCE',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770930622',
+ 'JOB_TITLE': [u'ESTIMATOR/ PROJECT MANAGER | FINE GARDENER'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/estimator-project-manager-fine-gardener/6770930622.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/search/egr> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/quality-engineer-qc-inspector-1099/6774931735.html>
+{'ADRESSE': [u' (Boston, MA)'],
+ 'COMPENSATION': u'Hourly rates start at $25 per hour depending on experience plus millage compensation as per IRS rate.',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6774931735',
+ 'JOB_TITLE': [u'Quality Engineer - QC Inspector (1099)'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/quality-engineer-qc-inspector-1099/6774931735.html',
+ 'PUBLICATION_DATE': [u'Dec 17']}
+2018-12-20 14:41:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/project-civil-transportation-engineer/6753706105.html>
+{'ADRESSE': [u' (Burlington)'],
+ 'COMPENSATION': u'commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6753706105',
+ 'JOB_TITLE': [u'PROJECT CIVIL & TRANSPORTATION ENGINEER'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/project-civil-transportation-engineer/6753706105.html',
+ 'PUBLICATION_DATE': [u'Nov 20']}
+2018-12-20 14:41:48 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://boston.craigslist.org/nos/egr/d/controls-engineer/6776429716.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-12-20 14:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://newlondon.craigslist.org/egr/d/architectural-design-associate/6760105198.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://newlondon.craigslist.org/egr/d/pm-shift-engineer/6774617099.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://newlondon.craigslist.org/egr/d/entry-level-position-for-surveying-co/6761321767.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://hartford.craigslist.org/egr/d/licensed-engineer/6758975930.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://newlondon.craigslist.org/egr/d/experienced-auto-cad-drafting-position/6760557920.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://capecod.craigslist.org/egr/d/senior-software-engineer/6771578675.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://capecod.craigslist.org/egr/d/structural-engineer/6753507494.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/detailer-draftsperson/6758891030.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://southcoast.craigslist.org/egr/d/land-surveyor-party-chief-project/6775522385.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://newlondon.craigslist.org/egr/d/architectural-design-associate/6760105198.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'depending on experience',
+ 'EMPLOYMENT_TYPE': u'part-time',
+ 'JOB_ID': u'6760105198',
+ 'JOB_TITLE': [u'architectural design associate'],
+ 'JOB_URL': u'https://newlondon.craigslist.org/egr/d/architectural-design-associate/6760105198.html',
+ 'PUBLICATION_DATE': [u'Nov 28']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://hartford.craigslist.org/egr/d/phone-repair-techweek/6767125305.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/licensed-engineer/6758986220.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://newlondon.craigslist.org/egr/d/pm-shift-engineer/6774617099.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'16.50',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6774617099',
+ 'JOB_TITLE': [u'PM Shift Engineer'],
+ 'JOB_URL': u'https://newlondon.craigslist.org/egr/d/pm-shift-engineer/6774617099.html',
+ 'PUBLICATION_DATE': [u'Dec 17']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/job-estimator-pasquazzi-bros-inc/6763868567.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://newlondon.craigslist.org/egr/d/entry-level-position-for-surveying-co/6761321767.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Salary is Negotionable',
+ 'EMPLOYMENT_TYPE': u'part-time',
+ 'JOB_ID': u'6761321767',
+ 'JOB_TITLE': [u'Entry Level Position for Surveying  Co.'],
+ 'JOB_URL': u'https://newlondon.craigslist.org/egr/d/entry-level-position-for-surveying-co/6761321767.html',
+ 'PUBLICATION_DATE': [u'Nov 30']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hartford.craigslist.org/egr/d/licensed-engineer/6758975930.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Competitive Project Based',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6758975930',
+ 'JOB_TITLE': [u'Licensed Engineer'],
+ 'JOB_URL': u'https://hartford.craigslist.org/egr/d/licensed-engineer/6758975930.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://newlondon.craigslist.org/egr/d/experienced-auto-cad-drafting-position/6760557920.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Salary is negotiable based upon experience.',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6760557920',
+ 'JOB_TITLE': [u'EXPERIENCED AUTO CAD DRAFTING POSITION'],
+ 'JOB_URL': u'https://newlondon.craigslist.org/egr/d/experienced-auto-cad-drafting-position/6760557920.html',
+ 'PUBLICATION_DATE': [u'Nov 29']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/electronic-engineer-project-coordination/6759839270.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/maintenance-technician/6759941586.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://capecod.craigslist.org/egr/d/senior-software-engineer/6771578675.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'salary',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6771578675',
+ 'JOB_TITLE': [u'Senior Software Engineer'],
+ 'JOB_URL': u'https://capecod.craigslist.org/egr/d/senior-software-engineer/6771578675.html',
+ 'PUBLICATION_DATE': [u'Dec 13']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://capecod.craigslist.org/egr/d/structural-engineer/6753507494.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'hourly rate',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6753507494',
+ 'JOB_TITLE': [u'Structural Engineer'],
+ 'JOB_URL': u'https://capecod.craigslist.org/egr/d/structural-engineer/6753507494.html',
+ 'PUBLICATION_DATE': [u'Nov 20']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://hartford.craigslist.org/egr/d/wanted-professional-engineer-for-septic/6769207205.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/detailer-draftsperson/6758891030.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Compensation will be based on experience',
+ 'EMPLOYMENT_TYPE': u'part-time',
+ 'JOB_ID': u'6758891030',
+ 'JOB_TITLE': [u'Detailer/Draftsperson'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/detailer-draftsperson/6758891030.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://southcoast.craigslist.org/egr/d/land-surveyor-party-chief-project/6775522385.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'$30-$50 depends upon experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6775522385',
+ 'JOB_TITLE': [u'Land Surveyor - Party Chief - Project Manager'],
+ 'JOB_URL': u'https://southcoast.craigslist.org/egr/d/land-surveyor-party-chief-project/6775522385.html',
+ 'PUBLICATION_DATE': [u'Dec 18']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/pm-shift-engineer/6774609197.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hartford.craigslist.org/egr/d/phone-repair-techweek/6767125305.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'NO',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6767125305',
+ 'JOB_TITLE': [u'Phone Repair Tech 700$-1000$ a Week'],
+ 'JOB_URL': u'https://hartford.craigslist.org/egr/d/phone-repair-techweek/6767125305.html',
+ 'PUBLICATION_DATE': [u'Dec  7']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/architect-project-manager/6767038303.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/licensed-engineer/6758986220.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Competitive Project Based',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6758986220',
+ 'JOB_TITLE': [u'Licensed Engineer'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/licensed-engineer/6758986220.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/job-estimator-pasquazzi-bros-inc/6763868567.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6763868567',
+ 'JOB_TITLE': [u'Job Estimator - Pasquazzi Bros. Inc.'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/job-estimator-pasquazzi-bros-inc/6763868567.html',
+ 'PUBLICATION_DATE': [u'Dec  3']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/electronic-engineer-project-coordination/6759839270.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'25-35hr DOE',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6759839270',
+ 'JOB_TITLE': [u'Electronic Engineer -Project Coordination'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/electronic-engineer-project-coordination/6759839270.html',
+ 'PUBLICATION_DATE': [u'Nov 28']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/maintenance-technician/6759941586.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'N/A',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6759941586',
+ 'JOB_TITLE': [u'Maintenance Technician'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/maintenance-technician/6759941586.html',
+ 'PUBLICATION_DATE': [u'Nov 28']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hartford.craigslist.org/egr/d/wanted-professional-engineer-for-septic/6769207205.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Compensation as agreed upon by contract.',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6769207205',
+ 'JOB_TITLE': [u'Wanted: Professional Engineer for Septic System Design'],
+ 'JOB_URL': u'https://hartford.craigslist.org/egr/d/wanted-professional-engineer-for-septic/6769207205.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/pm-shift-engineer/6774609197.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'$16.50/hr',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6774609197',
+ 'JOB_TITLE': [u'PM Shift Engineer'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/pm-shift-engineer/6774609197.html',
+ 'PUBLICATION_DATE': [u'Dec 17']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/architect-project-manager/6767038303.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'commensurate to experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6767038303',
+ 'JOB_TITLE': [u'Architect / Project Manager'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/architect-project-manager/6767038303.html',
+ 'PUBLICATION_DATE': [u'Dec  7']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nwb/egr/d/construction-project-manager/6753632748.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/bmw/egr/d/survey-crew-chief/6753717287.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architectural-designer/6754558629.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/mid-senior-electrical-engineer/6754548100.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/construction-superintendent/6757205502.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/experienced-cad-drafter/6756402199.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/technical-marketing/6757233436.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nwb/egr/d/construction-project-manager/6753632748.html>
+{'ADRESSE': [u' (Lowell, Massachusetts)'],
+ 'COMPENSATION': u'Competitive salary based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6753632748',
+ 'JOB_TITLE': [u'CONSTRUCTION PROJECT MANAGER'],
+ 'JOB_URL': u'https://boston.craigslist.org/nwb/egr/d/construction-project-manager/6753632748.html',
+ 'PUBLICATION_DATE': [u'Nov 20']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/sr-mechanical-design-engineer/6757238771.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/bmw/egr/d/survey-crew-chief/6753717287.html>
+{'ADRESSE': [u' (BURLINGTON)'],
+ 'COMPENSATION': u'based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6753717287',
+ 'JOB_TITLE': [u'Survey Crew Chief'],
+ 'JOB_URL': u'https://boston.craigslist.org/bmw/egr/d/survey-crew-chief/6753717287.html',
+ 'PUBLICATION_DATE': [u'Nov 20']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/junior-architect-and-mid-level-architect/6757247431.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/drone-co-looking-for-3d-reconstruction/6769106867.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architectural-designer/6754558629.html>
+{'ADRESSE': [u' (boston)'],
+ 'COMPENSATION': u'Full-Time, Salaried, Full Benefits Package',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6754558629',
+ 'JOB_TITLE': [u'Architectural Designer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architectural-designer/6754558629.html',
+ 'PUBLICATION_DATE': [u'Nov 21']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/mid-senior-electrical-engineer/6754548100.html>
+{'ADRESSE': [u' (Boston)'],
+ 'COMPENSATION': u'Full-Time, Salaried, Full Benefits Package',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6754548100',
+ 'JOB_TITLE': [u'Mid - Senior Electrical Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/mid-senior-electrical-engineer/6754548100.html',
+ 'PUBLICATION_DATE': [u'Nov 21']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/hvac-pm-fp-elec/6758513253.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/civil-engineering-pe-needed-management/6758019290.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/construction-superintendent/6757205502.html>
+{'ADRESSE': [u' (Watertown, MA)'],
+ 'COMPENSATION': u'Salary (commensurate with exp.), paid personal/vacation days & health insurance available.',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6757205502',
+ 'JOB_TITLE': [u'Construction Superintendent'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/construction-superintendent/6757205502.html',
+ 'PUBLICATION_DATE': [u'Nov 25']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/experienced-cad-drafter/6756402199.html>
+{'ADRESSE': [u' (Somerville/Medford line)'],
+ 'COMPENSATION': u'$25-$35 per hour, depending on experience',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6756402199',
+ 'JOB_TITLE': [u'Experienced Cad Drafter'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/experienced-cad-drafter/6756402199.html',
+ 'PUBLICATION_DATE': [u'Nov 24']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://providence.craigslist.org/egr/d/hotel-estimator-blue-beam-cad/6773620949.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/technical-marketing/6757233436.html>
+{'ADRESSE': [u' (Hyde Park)'],
+ 'COMPENSATION': u'with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6757233436',
+ 'JOB_TITLE': [u'Technical Marketing'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/technical-marketing/6757233436.html',
+ 'PUBLICATION_DATE': [u'Nov 25']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/cad-technician-restaurant-food-service/6758749719.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/licensed-engineer/6758946967.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/maintenance-engineer-for-new-food/6759003259.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/sr-mechanical-design-engineer/6757238771.html>
+{'ADRESSE': [u' (Hyde Park)'],
+ 'COMPENSATION': u'with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6757238771',
+ 'JOB_TITLE': [u'Sr. Mechanical Design Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/sr-mechanical-design-engineer/6757238771.html',
+ 'PUBLICATION_DATE': [u'Nov 25']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/junior-architect-and-mid-level-architect/6757247431.html>
+{'ADRESSE': [u' (West Roxbury)'],
+ 'COMPENSATION': u'Competative salary based on experience and potential.',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6757247431',
+ 'JOB_TITLE': [u'Junior Architect and Mid-Level Architect'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/junior-architect-and-mid-level-architect/6757247431.html',
+ 'PUBLICATION_DATE': [u'Nov 25']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://worcester.craigslist.org/egr/d/project-manager-estimator-glass-aluminum/6764710015.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://worcester.craigslist.org/egr/d/test-technicians-days/6759237230.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/drone-co-looking-for-3d-reconstruction/6769106867.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Per Experience',
+ 'EMPLOYMENT_TYPE': u'part-time',
+ 'JOB_ID': u'6769106867',
+ 'JOB_TITLE': [u'Drone Co looking for 3D reconstruction help - Pix4D & Cloud compare'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/drone-co-looking-for-3d-reconstruction/6769106867.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/hvac-pm-fp-elec/6758513253.html>
+{'ADRESSE': [u' (Boston)'],
+ 'COMPENSATION': u'based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6758513253',
+ 'JOB_TITLE': [u'HVAC/PM/FP/Elec'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/hvac-pm-fp-elec/6758513253.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/project-estimator/6759868492.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/sob/egr/d/creative-design-engineer-construction/6759600794.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://worcester.craigslist.org/egr/d/architectural-drafter/6770899711.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/civil-engineering-pe-needed-management/6758019290.html>
+{'ADRESSE': [u' (East Berkeley St Boston MA)'],
+ 'COMPENSATION': u'TBD',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6758019290',
+ 'JOB_TITLE': [u'Civil Engineering P.E needed - Management role avail for right person'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/civil-engineering-pe-needed-management/6758019290.html',
+ 'PUBLICATION_DATE': [u'Nov 26']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://providence.craigslist.org/egr/d/hotel-estimator-blue-beam-cad/6773620949.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Negotiated- Depends on experience',
+ 'EMPLOYMENT_TYPE': u'part-time',
+ 'JOB_ID': u'6773620949',
+ 'JOB_TITLE': [u'Hotel Estimator- Blue Beam-Cad'],
+ 'JOB_URL': u'https://providence.craigslist.org/egr/d/hotel-estimator-blue-beam-cad/6773620949.html',
+ 'PUBLICATION_DATE': [u'Dec 15']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://worcester.craigslist.org/egr/d/industrial-controla-programmer/6769328196.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/chief-engineer/6763501244.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/cad-technician-restaurant-food-service/6758749719.html>
+{'ADRESSE': [u' (Chelsea)'],
+ 'COMPENSATION': u'Based on experience and qualifications',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6758749719',
+ 'JOB_TITLE': [u'CAD Technician (RESTAURANT / FOOD SERVICE INDUSTRY)'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/cad-technician-restaurant-food-service/6758749719.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architectural-drafter-designer/6754561642.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/licensed-engineer/6758946967.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Competitive Project Based',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6758946967',
+ 'JOB_TITLE': [u'Licensed Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/licensed-engineer/6758946967.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/maintenance-engineer-for-new-food/6759003259.html>
+{'ADRESSE': [u' (Time Out Market Boston, 401 Park Drive)'],
+ 'COMPENSATION': u'Full-time salaried position with health insurance, 401k, 15 PTO days a year',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6759003259',
+ 'JOB_TITLE': [u'Maintenance Engineer for new food/beverage concept'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/maintenance-engineer-for-new-food/6759003259.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/construction-business-sr-estimator/6764026865.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/sob/egr/d/construction-project-manager/6763985395.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://worcester.craigslist.org/egr/d/project-manager-estimator-glass-aluminum/6764710015.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6764710015',
+ 'JOB_TITLE': [u'Project Manager/Estimator - Glass &Aluminum'],
+ 'JOB_URL': u'https://worcester.craigslist.org/egr/d/project-manager-estimator-glass-aluminum/6764710015.html',
+ 'PUBLICATION_DATE': [u'Dec  4']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://worcester.craigslist.org/egr/d/test-technicians-days/6759237230.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'Based on shift & relevant experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6759237230',
+ 'JOB_TITLE': [u'Test Technicians - Days'],
+ 'JOB_URL': u'https://worcester.craigslist.org/egr/d/test-technicians-days/6759237230.html',
+ 'PUBLICATION_DATE': [u'Nov 27']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/sob/egr/d/civil-engineer-cad-technician/6764430842.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/project-estimator/6759868492.html>
+{'ADRESSE': [u' (Norwood, MA)'],
+ 'COMPENSATION': u'Commensurate With Experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6759868492',
+ 'JOB_TITLE': [u'Project Estimator'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/project-estimator/6759868492.html',
+ 'PUBLICATION_DATE': [u'Nov 28']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/spring-2019-co-op/6764768940.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/director-of-architectural-design-cic/6760410091.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/director-of-architectural-design-cic/6765281750.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/sob/egr/d/creative-design-engineer-construction/6759600794.html>
+{'ADRESSE': [u' (Boston)'],
+ 'COMPENSATION': u'Highly Competitive',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6759600794',
+ 'JOB_TITLE': [u'Creative Design Engineer- Construction/Architectural Design'],
+ 'JOB_URL': u'https://boston.craigslist.org/sob/egr/d/creative-design-engineer-construction/6759600794.html',
+ 'PUBLICATION_DATE': [u'Nov 28']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architectural-designer-kitchen-and/6766068377.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://worcester.craigslist.org/egr/d/architectural-drafter/6770899711.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'TBD on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770899711',
+ 'JOB_TITLE': [u'Architectural Drafter'],
+ 'JOB_URL': u'https://worcester.craigslist.org/egr/d/architectural-drafter/6770899711.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://worcester.craigslist.org/egr/d/industrial-controla-programmer/6769328196.html>
+{'ADRESSE': '-',
+ 'COMPENSATION': u'As negotiated',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6769328196',
+ 'JOB_TITLE': [u'Industrial Controla Programmer'],
+ 'JOB_URL': u'https://worcester.craigslist.org/egr/d/industrial-controla-programmer/6769328196.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/chief-engineer/6763501244.html>
+{'ADRESSE': [u' (95 Station Landing, Medford, MA)'],
+ 'COMPENSATION': u'N.A',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6763501244',
+ 'JOB_TITLE': [u'Chief Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/chief-engineer/6763501244.html',
+ 'PUBLICATION_DATE': [u'Dec  3']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architectural-drafter-designer/6754561642.html>
+{'ADRESSE': [u' (boston)'],
+ 'COMPENSATION': u'Full-Time, Salaried, Full Benefits Package',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6754561642',
+ 'JOB_TITLE': [u'Architectural Drafter/Designer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architectural-drafter-designer/6754561642.html',
+ 'PUBLICATION_DATE': [u'Nov 21']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nwb/egr/d/project-manager/6766433890.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/draftsman-for-scaffold-projects/6766625964.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/construction-business-sr-estimator/6764026865.html>
+{'ADRESSE': [u' (Baltimore, MD Area - Relocation Available)'],
+ 'COMPENSATION': u'DOE - Very Competitive',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6764026865',
+ 'JOB_TITLE': [u'Construction Business Sr. Estimator (Roofing)'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/construction-business-sr-estimator/6764026865.html',
+ 'PUBLICATION_DATE': [u'Dec  3']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/sob/egr/d/construction-project-manager/6763985395.html>
+{'ADRESSE': [u' (Sagamore Beach, MA)'],
+ 'COMPENSATION': u'Competitive',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6763985395',
+ 'JOB_TITLE': [u'Construction Project Manager'],
+ 'JOB_URL': u'https://boston.craigslist.org/sob/egr/d/construction-project-manager/6763985395.html',
+ 'PUBLICATION_DATE': [u'Dec  3']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/sob/egr/d/civil-engineer-cad-technician/6764430842.html>
+{'ADRESSE': [u' (Brockton, MA)'],
+ 'COMPENSATION': u'50,000- 70,000.00+ a year',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6764430842',
+ 'JOB_TITLE': [u'Civil Engineer/CAD Technician'],
+ 'JOB_URL': u'https://boston.craigslist.org/sob/egr/d/civil-engineer-cad-technician/6764430842.html',
+ 'PUBLICATION_DATE': [u'Dec  4']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/homebuilding-project-manager/6767246028.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/spring-2019-co-op/6764768940.html>
+{'ADRESSE': [u' (01960)'],
+ 'COMPENSATION': u'Commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6764768940',
+ 'JOB_TITLE': [u'Spring 2019 Co-Op'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/spring-2019-co-op/6764768940.html',
+ 'PUBLICATION_DATE': [u'Dec  4']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/director-of-architectural-design-cic/6760410091.html>
+{'ADRESSE': [u' (Kendall Square)'],
+ 'COMPENSATION': u'Commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6760410091',
+ 'JOB_TITLE': [u'Director of Architectural Design @CIC'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/director-of-architectural-design-cic/6760410091.html',
+ 'PUBLICATION_DATE': [u'Nov 29']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/director-of-architectural-design-cic/6765281750.html>
+{'ADRESSE': [u' (Kendall Square)'],
+ 'COMPENSATION': u'Commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6765281750',
+ 'JOB_TITLE': [u'Director of Architectural Design @CIC'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/director-of-architectural-design-cic/6765281750.html',
+ 'PUBLICATION_DATE': [u'Dec  5']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architectural-designer-kitchen-and/6766068377.html>
+{'ADRESSE': [u' (boston and surrounding areas)'],
+ 'COMPENSATION': u'25-35 per hour based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6766068377',
+ 'JOB_TITLE': [u'architectural designer kitchen and bathroom design'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architectural-designer-kitchen-and/6766068377.html',
+ 'PUBLICATION_DATE': [u'Dec  6']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/emerging-professional-architectural/6769173442.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architectural-designer-drafter/6769422768.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nwb/egr/d/project-manager/6766433890.html>
+{'ADRESSE': [u' (Burlington)'],
+ 'COMPENSATION': u'Commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6766433890',
+ 'JOB_TITLE': [u'PROJECT MANAGER'],
+ 'JOB_URL': u'https://boston.craigslist.org/nwb/egr/d/project-manager/6766433890.html',
+ 'PUBLICATION_DATE': [u'Dec  6']}
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/draftsman-for-scaffold-projects/6766625964.html>
+{'ADRESSE': [u' (Medford/Malden/Somerville)'],
+ 'COMPENSATION': u'$ 70/hr',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6766625964',
+ 'JOB_TITLE': [u'Draftsman for Scaffold Projects'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/draftsman-for-scaffold-projects/6766625964.html',
+ 'PUBLICATION_DATE': [u'Dec  6']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/sr-architectural-designer-drafter/6769425923.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/senior-plumbing-fire-protection-engineer/6769565148.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/homebuilding-project-manager/6767246028.html>
+{'ADRESSE': [u' (North of Boston)'],
+ 'COMPENSATION': u'excellent salary for a qualified proffesional',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6767246028',
+ 'JOB_TITLE': [u'Homebuilding Project Manager'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/homebuilding-project-manager/6767246028.html',
+ 'PUBLICATION_DATE': [u'Dec  7']}
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/civil-engineer-drainage-analysis/6770039920.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/structural-engineer/6770214016.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/sob/egr/d/architect-intern-architect/6770324768.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/land-surveyors-field-office/6766403961.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/emerging-professional-architectural/6769173442.html>
+{'ADRESSE': [u' (West End)'],
+ 'COMPENSATION': u'DOE',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6769173442',
+ 'JOB_TITLE': [u'Emerging Professional Architectural Designer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/emerging-professional-architectural/6769173442.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architectural-designer-drafter/6769422768.html>
+{'ADRESSE': [u' (Boston)'],
+ 'COMPENSATION': u'Please submitt your salary requirements with your resume',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6769422768',
+ 'JOB_TITLE': [u'Architectural Designer/Drafter'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architectural-designer-drafter/6769422768.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/site-superintendent/6770365977.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/sr-architectural-designer-drafter/6769425923.html>
+{'ADRESSE': [u' (Boston)'],
+ 'COMPENSATION': u'Please submitt your salary requirements with your resume',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6769425923',
+ 'JOB_TITLE': [u'Sr. Architectural Designer/Drafter'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/sr-architectural-designer-drafter/6769425923.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/senior-plumbing-fire-protection-engineer/6769565148.html>
+{'ADRESSE': [u' (Boston MA)'],
+ 'COMPENSATION': u'105,000.00 to 145,000.00',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6769565148',
+ 'JOB_TITLE': [u'Senior Plumbing Fire Protection Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/senior-plumbing-fire-protection-engineer/6769565148.html',
+ 'PUBLICATION_DATE': [u'Dec 10']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architectural-design-staff/6770365892.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/civil-engineer-drainage-analysis/6770039920.html>
+{'ADRESSE': [u' (Andover)'],
+ 'COMPENSATION': u'Responsive to Experience',
+ 'EMPLOYMENT_TYPE': u"employee's choice",
+ 'JOB_ID': u'6770039920',
+ 'JOB_TITLE': [u'Civil Engineer Drainage Analysis'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/civil-engineer-drainage-analysis/6770039920.html',
+ 'PUBLICATION_DATE': [u'Dec 11']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/structural-engineer/6770214016.html>
+{'ADRESSE': [u' (Newton)'],
+ 'COMPENSATION': u'Rate/Hr depending on experience.',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6770214016',
+ 'JOB_TITLE': [u'Structural Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/structural-engineer/6770214016.html',
+ 'PUBLICATION_DATE': [u'Dec 11']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/engineer-mechanical-manufacturing/6770865828.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/senior-scientist-geologist-engineer/6770383735.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/sob/egr/d/architect-intern-architect/6770324768.html>
+{'ADRESSE': [u' (Cohasset, MA)'],
+ 'COMPENSATION': u'Commensurate with experience.',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770324768',
+ 'JOB_TITLE': [u'Architect / Intern Architect'],
+ 'JOB_URL': u'https://boston.craigslist.org/sob/egr/d/architect-intern-architect/6770324768.html',
+ 'PUBLICATION_DATE': [u'Dec 11']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/architect/6771239883.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/rd-technician/6771326273.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/land-surveyors-field-office/6766403961.html>
+{'ADRESSE': [u' (Boston, MA)'],
+ 'COMPENSATION': u'compensation/salary to be discussed during interview',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6766403961',
+ 'JOB_TITLE': [u'Land Surveyors - Field & Office'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/land-surveyors-field-office/6766403961.html',
+ 'PUBLICATION_DATE': [u'Dec  6']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/bmw/egr/d/interior-designer/6771319110.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/cad-draft-persons/6771477603.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/site-superintendent/6770365977.html>
+{'ADRESSE': [u' (Kittery, ME)'],
+ 'COMPENSATION': u'DOE',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770365977',
+ 'JOB_TITLE': [u'Site Superintendent'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/site-superintendent/6770365977.html',
+ 'PUBLICATION_DATE': [u'Dec 11']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architectural-design-staff/6770365892.html>
+{'ADRESSE': [u' (Harvard Square)'],
+ 'COMPENSATION': u'TBD',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770365892',
+ 'JOB_TITLE': [u'Architectural Design Staff'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architectural-design-staff/6770365892.html',
+ 'PUBLICATION_DATE': [u'Dec 11']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nwb/egr/d/experienced-estimators/6771619195.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/engineer-mechanical-manufacturing/6770865828.html>
+{'ADRESSE': [u' (Salem, MA)'],
+ 'COMPENSATION': u'base with generous monthly bonuses',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770865828',
+ 'JOB_TITLE': [u'Engineer - Mechanical/Manufacturing'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/engineer-mechanical-manufacturing/6770865828.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nwb/egr/d/jobs-jobs-jobs-apply-today/6771938291.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/senior-scientist-geologist-engineer/6770383735.html>
+{'ADRESSE': [u' (Marlborough, MA)'],
+ 'COMPENSATION': u'DOE',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6770383735',
+ 'JOB_TITLE': [u'Senior Scientist Geologist Engineer'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/senior-scientist-geologist-engineer/6770383735.html',
+ 'PUBLICATION_DATE': [u'Dec 11']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/architect/6771239883.html>
+{'ADRESSE': [u' (Walden)'],
+ 'COMPENSATION': u'Salary position, benefits, paid vacation,',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6771239883',
+ 'JOB_TITLE': [u'Architect'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/architect/6771239883.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/rd-technician/6771326273.html>
+{'ADRESSE': [u' (Allston)'],
+ 'COMPENSATION': u'competitive compensation',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6771326273',
+ 'JOB_TITLE': [u'R&D Technician'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/rd-technician/6771326273.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/bmw/egr/d/interior-designer/6771319110.html>
+{'ADRESSE': [u' (MetroWest)'],
+ 'COMPENSATION': u'$20+ per hour',
+ 'EMPLOYMENT_TYPE': u'contract',
+ 'JOB_ID': u'6771319110',
+ 'JOB_TITLE': [u'Interior Designer'],
+ 'JOB_URL': u'https://boston.craigslist.org/bmw/egr/d/interior-designer/6771319110.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/nos/egr/d/homebuilding-project-manager/6772646620.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://boston.craigslist.org/gbs/egr/d/autocad-draftsman/6772714678.html> (referer: https://boston.craigslist.org/search/egr)
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/cad-draft-persons/6771477603.html>
+{'ADRESSE': [u' (Boston)'],
+ 'COMPENSATION': u'based on experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6771477603',
+ 'JOB_TITLE': [u'CAD Draft persons'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/cad-draft-persons/6771477603.html',
+ 'PUBLICATION_DATE': [u'Dec 12']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nwb/egr/d/experienced-estimators/6771619195.html>
+{'ADRESSE': [u' (Methuen, MA.)'],
+ 'COMPENSATION': u'Compensation commensurate with experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6771619195',
+ 'JOB_TITLE': [u'Experienced Estimators'],
+ 'JOB_URL': u'https://boston.craigslist.org/nwb/egr/d/experienced-estimators/6771619195.html',
+ 'PUBLICATION_DATE': [u'Dec 13']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nwb/egr/d/jobs-jobs-jobs-apply-today/6771938291.html>
+{'ADRESSE': [u' (Marlborough)'],
+ 'COMPENSATION': u'Based on position, experience & shift',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6771938291',
+ 'JOB_TITLE': [u'JOBS JOBS JOBS-Apply Today!'],
+ 'JOB_URL': u'https://boston.craigslist.org/nwb/egr/d/jobs-jobs-jobs-apply-today/6771938291.html',
+ 'PUBLICATION_DATE': [u'Dec 13']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/nos/egr/d/homebuilding-project-manager/6772646620.html>
+{'ADRESSE': [u' (North of Boston)'],
+ 'COMPENSATION': u'excellent salary for a qualified proffesional',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6772646620',
+ 'JOB_TITLE': [u'Homebuilding Project Manager'],
+ 'JOB_URL': u'https://boston.craigslist.org/nos/egr/d/homebuilding-project-manager/6772646620.html',
+ 'PUBLICATION_DATE': [u'Dec 14']}
+2018-12-20 14:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://boston.craigslist.org/gbs/egr/d/autocad-draftsman/6772714678.html>
+{'ADRESSE': [u' (Peabody)'],
+ 'COMPENSATION': u'to commensurate w/ experience',
+ 'EMPLOYMENT_TYPE': u'full-time',
+ 'JOB_ID': u'6772714678',
+ 'JOB_TITLE': [u'Autocad Draftsman'],
+ 'JOB_URL': u'https://boston.craigslist.org/gbs/egr/d/autocad-draftsman/6772714678.html',
+ 'PUBLICATION_DATE': [u'Dec 14']}
+2018-12-20 14:41:50 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-12-20 14:41:50 [scrapy.extensions.feedexport] INFO: Stored csv feed (88 items) in: ../data_craigslist/craigslistspider/2018-12-20T13-41-47.csv
+2018-12-20 14:41:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 36491,
+ 'downloader/request_count': 90,
+ 'downloader/request_method_count/GET': 90,
+ 'downloader/response_bytes': 499469,
+ 'downloader/response_count': 90,
+ 'downloader/response_status_count/200': 90,
+ 'dupefilter/filtered': 89,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 12, 20, 13, 41, 50, 302505),
+ 'item_scraped_count': 88,
+ 'log_count/DEBUG': 180,
+ 'log_count/INFO': 8,
+ 'memusage/max': 51642368,
+ 'memusage/startup': 51642368,
+ 'request_depth_max': 2,
+ 'response_received_count': 90,
+ 'scheduler/dequeued': 90,
+ 'scheduler/dequeued/memory': 90,
+ 'scheduler/enqueued': 90,
+ 'scheduler/enqueued/memory': 90,
+ 'start_time': datetime.datetime(2018, 12, 20, 13, 41, 47, 67354)}
+2018-12-20 14:41:50 [scrapy.core.engine] INFO: Spider closed (finished)
